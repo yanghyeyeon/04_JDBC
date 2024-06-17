@@ -37,6 +37,8 @@ public class Application1 {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         } finally {
+
+            // 오버로딩으로 통일시킴.
             close(rset);
             close(stmt);
             close(con);
