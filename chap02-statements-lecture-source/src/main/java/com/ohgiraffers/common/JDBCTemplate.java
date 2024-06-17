@@ -15,7 +15,7 @@ public class JDBCTemplate {
 
         // Properties 파일에 담긴 정보 가져오기
         try {
-            prop.load(new FileReader("src/main/java/com/ohgiraffers/config/connection-info-properties"));
+            prop.load(new FileReader("src/main/java/com/ohgiraffers/config/connection-info.properties"));
 
 
         // key-value로 원하는 값 찾아오기
