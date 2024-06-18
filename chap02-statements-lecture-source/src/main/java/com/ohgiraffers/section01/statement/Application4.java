@@ -52,8 +52,8 @@ public class Application4 {
                 selectedEmp.setEmpId(rset.getString("EMP_ID"));
                 selectedEmp.setEmpName(rset.getString("EMP_NAME"));
                 selectedEmp.setEmpNo(rset.getString("EMP_NO"));
-                selectedEmp.setEmail(rset.getString("EMP_EMAIL"));
-                selectedEmp.setPhone(rset.getString("EMP_PHONE"));
+                selectedEmp.setEmail(rset.getString("EMAIL"));
+                selectedEmp.setPhone(rset.getString("PHONE"));
                 selectedEmp.setDeptCode(rset.getString("DEPT_CODE"));
                 selectedEmp.setJobCode(rset.getString("JOB_CODE"));
                 selectedEmp.setSalLevel(rset.getString("SAL_LEVEL"));
