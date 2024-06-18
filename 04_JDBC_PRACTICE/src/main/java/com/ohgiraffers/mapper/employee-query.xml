@@ -24,4 +24,18 @@
         values(?,?,?,?,?,?,?,?,?,?)
 
     </entry>
+
+    <entry key="deleteEmployee">
+        delete
+        from employee
+        where emp_id = ?
+    </entry>
+
+    <entry key="selectEmployee">
+        select
+        *
+        from
+        employee
+        where emp_id = ?
+    </entry>
 </properties>
