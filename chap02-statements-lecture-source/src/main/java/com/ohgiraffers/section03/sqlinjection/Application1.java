@@ -35,6 +35,7 @@ public class Application1 {
 
         System.out.println(query);
         // select * from employee where emp_id '200'and emp_name = '성동일'
+        // select * from employee where emp_id = '45123' and emp_name = ''or 1=1 and emp_id ='204'
 
 
         try {
