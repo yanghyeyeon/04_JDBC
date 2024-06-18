@@ -10,4 +10,17 @@
         )
         values (?,?,?,?)
     </entry>
+
+    <entry key="updateMenu">
+        update tbl_menu
+        set menu_name = ?,
+        menu_price = ?
+        where menu_code = ?
+    </entry>
+
+    <entry key="deleteMenu">
+        delete
+        from tbl_menu
+        where menu_code = ?
+    </entry>
 </properties>
