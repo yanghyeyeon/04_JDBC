@@ -19,13 +19,9 @@
         job_code,
         sal_level,
         salary,
-        bonus,
-        manager_id,
-        hire_date,
-        ent_date,
-        ent_yn
+        manager_id
         )
-        values(?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+        values(?,?,?,?,?,?,?,?,?,?)
 
     </entry>
 </properties>
