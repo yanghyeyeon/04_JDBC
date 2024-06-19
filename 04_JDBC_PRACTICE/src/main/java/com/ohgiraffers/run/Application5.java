@@ -78,7 +78,7 @@ public class Application5 {
         for(EmployeeDTO emp :empList) {
             System.out.println(emp);
         }
-        
+
 
     }
 }
